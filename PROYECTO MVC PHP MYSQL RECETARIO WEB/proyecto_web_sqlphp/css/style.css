@@ -1,0 +1,303 @@
+
+/* menu */
+
+#menu ul  {
+ list-style:none;
+ margin:0;
+ float: left;
+ padding: 14px 16px;
+ position: relative;
+ left: 50%;
+ 
+}
+#titulo1{
+    font-family: 'Signika', sans-serif;
+    font-size: 50pt;
+    color: #666666
+    
+}
+
+
+aside img{
+    margin: 100px;
+    height: 700px;
+   width: 300px;
+    border-radius: 50px;
+    float: right;
+}
+#hr1{
+  height: 200px;
+}
+#olindex{
+    margin: 20px;
+    width: 100%;
+}
+#titulopregunta{
+    font-family: 'Cairo', sans-serif;
+    font-size:100pt;
+}
+li ,p{
+    
+    font-family: 'Anton', sans-serif;
+    font-size: 17pt;
+}
+li{
+    
+}
+#parrafoindex{
+    text-align: justify;
+    font-family: 'Exo 2', sans-serif;
+}
+li p{
+    
+}
+div.scrollmenu {
+  background-color: #777;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: cyan;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+
+
+#p1{
+    float: left;
+    display: block;
+    text-align: left;
+}
+
+
+h1{
+    text-align: center;
+}
+
+#article1, #article2 {
+        position: absolute;
+	display: inline-block;
+	vertical-align: top;
+	width: 25%; 
+        height: 100px;
+}
+
+#historia_vegetariana{
+    border: 3px solid;
+}
+
+
+#titulo{
+    font-family: sans-serif;
+}
+
+
+body{
+    margin:0;
+    
+}
+nav ul{
+    text-align: center;
+}
+nav{
+    width: 100%;  
+    height: 80px;
+}
+ul{
+   
+    z-index:999;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    
+}
+ul li{
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    
+}
+ul li a{
+    
+    width: 150px;
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:  Century Gothic;
+    font-weight: bold;
+
+}
+a:hover{
+    background: #6666ff;
+}
+ul li ul {
+    background: #ccccff;
+    
+}
+ul li ul li{
+    float:none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+    
+}
+* {box-sizing: border-box;
+}
+.container {  
+  
+  display:inline-block;
+  position: relative;
+  width: 50%;
+  color: white;
+  max-width: 300px;
+  
+}
+.image {
+    border-radius: 15px;
+  display: inline;
+    width: 105%;
+  height: 200px;
+  padding: 10px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color:green; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  height: 10px;
+}
+.overlay a{
+    color:white;
+    font-family: sans-serif
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+  
+}
+/** --------------------------------------------------------------------------- **/
+/** VEGANOS **/
+#berejena1{
+    width: 50%;
+}
+p2{
+    text-align: justify;
+    font-family: 'Martel', serif; 
+    font-size: 14pt;
+}
+.contenedor, img {
+  display: block;
+  position: relative;		
+  width: 100%;
+  height: auto;
+}
+olveganos{
+    font-family: 'Righteous', cursive;
+    font-size: 9pt;
+}
+
+
+.contenedor p {
+  font-size: 250%;
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  padding: 5px;
+  width: 100%;
+}
+#izquierda{
+   float: left;
+    border: 1px solid #1f1f1f;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-top: 50px;
+    width: calc(50% - 16px);
+}
+#izquierda{
+    margin-right: 32px;
+}
+
+
+#derecha{
+    float: left;
+    border: 1px solid #1f1f1f;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-top: 50px;
+    width: calc(50% - 16px);
+}
+/** Slider **/
+
+.slider{
+    overflow: hidden;
+    width: 95%;
+    margin: auto;
+    
+}
+.slider ul{
+    position: static;
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+  border-radius:60px;
+  width: 700px;
+  height: 400px;
+  
+}
+@keyframes cambio{
+    0%{margin-left:0;}
+    20%{margin-left:0;}
+    
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+}
+
+
+
+
+
